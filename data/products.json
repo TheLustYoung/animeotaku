@@ -1,0 +1,190 @@
+{
+ "demo": true,
+ "currency": "AMD",
+ "contacts": {
+  "whatsapp": "37498281910",
+  "telegram": "",
+  "instagram": "animeotakuarmenia",
+  "phone": "+374 98 281910"
+ },
+ "categories": [
+  "Фигурки",
+  "Одежда",
+  "Манга",
+  "Стикеры"
+ ],
+ "note": "Фото: публичный Instagram магазина (@animeotakuarmenia). Цены магазин не публикует.",
+ "products": [
+  {
+   "id": "itachi-uchiha-figure",
+   "name": "Itachi Uchiha figure",
+   "series": "Naruto",
+   "category": "Фигурки",
+   "tag": "Новая коллекция",
+   "new": true,
+   "price": null,
+   "image": "img/products/itachi-uchiha-figure.jpg",
+   "check": false
+  },
+  {
+   "id": "roronoa-zoro-figure",
+   "name": "Roronoa Zoro figure",
+   "series": "One Piece",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/roronoa-zoro-figure.jpg",
+   "check": false
+  },
+  {
+   "id": "portgas-d-ace-figure",
+   "name": "Portgas D. Ace figure",
+   "series": "One Piece",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/portgas-d-ace-figure.jpg",
+   "check": false
+  },
+  {
+   "id": "trafalgar-law-figure",
+   "name": "Trafalgar Law figure",
+   "series": "One Piece",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/trafalgar-law-figure.jpg",
+   "check": true
+  },
+  {
+   "id": "master-roshi-figure",
+   "name": "Master Roshi figure",
+   "series": "Dragon Ball",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/master-roshi-figure.jpg",
+   "check": false
+  },
+  {
+   "id": "shenron-figure",
+   "name": "Shenron figure",
+   "series": "Dragon Ball",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/shenron-figure.jpg",
+   "check": true
+  },
+  {
+   "id": "fern-figure",
+   "name": "Fern figure",
+   "series": "Frieren",
+   "category": "Фигурки",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/fern-figure.jpg",
+   "check": true
+  },
+  {
+   "id": "tee-green-dragon",
+   "name": "Anime T-shirt, green",
+   "series": "",
+   "category": "Одежда",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/tee-green-dragon.jpg",
+   "check": true
+  },
+  {
+   "id": "tee-blue-red-hair",
+   "name": "Anime T-shirt, blue",
+   "series": "",
+   "category": "Одежда",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/tee-blue-red-hair.jpg",
+   "check": true
+  },
+  {
+   "id": "tee-black-red",
+   "name": "Anime T-shirt, black and red",
+   "series": "",
+   "category": "Одежда",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/tee-black-red.jpg",
+   "check": true
+  },
+  {
+   "id": "tee-beige",
+   "name": "Anime T-shirt, beige",
+   "series": "",
+   "category": "Одежда",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/tee-beige.jpg",
+   "check": true
+  },
+  {
+   "id": "manga-volumes",
+   "name": "Manga volumes",
+   "series": "",
+   "category": "Манга",
+   "tag": "",
+   "new": false,
+   "price": null,
+   "image": "img/products/manga-volumes.jpg",
+   "check": true
+  },
+  {
+   "id": "toca-life-world-stickers",
+   "name": "Toca Life World sticker pack",
+   "series": "Toca Boca",
+   "category": "Стикеры",
+   "tag": "Пример",
+   "new": false,
+   "price": null,
+   "image": "img/products/toca-life-world-stickers.webp",
+   "check": false,
+   "cutout": true,
+   "example": true
+  },
+  {
+   "id": "standoff-2-stickers",
+   "name": "Standoff 2 sticker pack",
+   "series": "Standoff 2",
+   "category": "Стикеры",
+   "tag": "Пример",
+   "new": false,
+   "price": null,
+   "image": "img/products/standoff-2-stickers.webp",
+   "check": false,
+   "cutout": true,
+   "example": true
+  },
+  {
+   "id": "frogs-stickers",
+   "name": "Frogs sticker pack",
+   "series": "",
+   "category": "Стикеры",
+   "tag": "Пример",
+   "new": false,
+   "price": null,
+   "image": "img/products/frogs-stickers.webp",
+   "check": false,
+   "cutout": true,
+   "example": true
+  }
+ ]
+}
