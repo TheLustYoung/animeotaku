@@ -29,6 +29,7 @@ const S = {
   // hero
   kick: { ru: 'Первый аниме-магазин в Ереване', en: 'The first anime shop in Yerevan', hy: 'Առաջին անիմե խանութը Երևանում' },
   heroSub: { ru: 'Фигурки, одежда, манга и мерч. Всё, что ты любишь, в одном месте на Спендиаряна, 5.', en: 'Figures, apparel, manga and merch. Everything you love in one place at 5 Spendiaryan St.', hy: 'Արձանիկներ, հագուստ, մանգա և մերչ։ Այն ամենը, ինչ սիրում ես, մեկ վայրում՝ Սպենդիարյան 5։' },
+  deck: { ru: 'Презентация (PDF)', en: 'Presentation (PDF)', hy: 'Ներկայացում (PDF)' },
   badge: { ru: 'ежедневно', en: 'every day', hy: 'ամեն օր' },
   heroTag: { ru: 'Всё, что ты любишь, в одном месте', en: 'Everything you love in one place', hy: 'Այն ամենը, ինչ սիրում ես, մեկ վայրում' },
   heroBtn1: { ru: 'В магазин', en: 'Go to the shop', hy: 'Խանութ' }, heroBtn2: { ru: 'Что такое аниме?', en: 'What is anime?', hy: 'Ի՞նչ է անիմեն։' },

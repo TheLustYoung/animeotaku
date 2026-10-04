@@ -21,7 +21,7 @@ const NAV = [['#/story', 'navStory'], ['#/shop', 'navShop'], ...['Фигурки
 const navLabel = (k) => (CAT[k] ? cat(k) : t(k));
 function chrome() {
   $('#nav').innerHTML = NAV.map(([h, k]) => `<a href="${h}">${navLabel(k)}</a>`).join('');
-  $('#mobileMenu').innerHTML = `<button class="x" id="menuClose" aria-label="×">✕</button>${NAV.map(([h, k]) => `<a href="${h}">${navLabel(k)}</a>`).join('')}<a href="#/favorites">${t('favorites')}</a><a href="#/help">${t('help')}</a>`;
+  $('#mobileMenu').innerHTML = `<button class="x" id="menuClose" aria-label="×">✕</button>${NAV.map(([h, k]) => `<a href="${h}">${navLabel(k)}</a>`).join('')}<a href="#/favorites">${t('favorites')}</a><a href="#/help">${t('help')}</a><a href="Anime_Otaku_prezentaciya.pdf" target="_blank" rel="noopener">${t('deck')}</a>`;
   $('#lang').innerHTML = LANGS.map((l) => `<button data-lang="${l}" class="${l === lang ? 'on' : ''}" aria-label="${l}">${LANG_LABEL[l]}</button>`).join('');
   $('#searchInput').placeholder = t('searchPh'); $('#searchClose').textContent = t('cancel');
   $('#searchBtn').setAttribute('aria-label', t('search')); $('#burger').setAttribute('aria-label', t('menu')); $('#icoFav').setAttribute('aria-label', t('favorites')); $('#icoBag').setAttribute('aria-label', t('bag'));
@@ -29,7 +29,7 @@ function chrome() {
   const a = (h, txt, ext) => `<a href="${h}"${ext ? ' target="_blank" rel="noopener"' : ''}>${txt}</a>`;
   $('#footer').innerHTML = `<div class="foot-cols">
     <div><h4>${t('fCatalog')}</h4>${['Фигурки', 'Одежда', 'Манга', 'Стикеры'].map((c) => a(`#/shop/${encodeURIComponent(c)}`, cat(c))).join('')}</div>
-    <div><h4>Anime Otaku</h4>${a('#/story', t('navStory'))}${a('#/store', t('addr'))}${a('#/store', t('hours'))}${a('https://yandex.com/maps/org/anime_otaku/82438621509/', t('fRoute'), 1)}</div>
+    <div><h4>Anime Otaku</h4>${a('#/story', t('navStory'))}${a('Anime_Otaku_prezentaciya.pdf', t('deck'), 1)}${a('#/store', t('addr'))}${a('#/store', t('hours'))}${a('https://yandex.com/maps/org/anime_otaku/82438621509/', t('fRoute'), 1)}</div>
     <div><h4>${t('fHelp')}</h4>${a('#/help', t('hq1'))}${a('#/help', t('delivery'))}</div>
     <div><h4>${t('fContact')}</h4>${a('tel:+37498281910', '+374 98 281910')}${a('https://www.instagram.com/animeotakuarmenia/', 'Instagram @animeotakuarmenia', 1)}</div></div>
     <div class="foot-bottom"><span>${t('fDemo')}</span><span>${t('fBy')}</span></div>`;
@@ -58,7 +58,7 @@ function viewHome() {
   return `
     <section class="hero"><div class="hero-panel">
       <div class="hero-copy"><p class="bar">${t('kick')}</p><h1><span>ANIME</span><span>OTAKU</span></h1><p class="bar sm">${t('heroSub')}</p>
-        <div class="hero-btns"><a class="btn" href="#/shop">${t('heroBtn1')}</a><a class="btn ghost" href="#/story">${t('heroBtn2')}</a></div></div>
+        <div class="hero-btns"><a class="btn" href="#/shop">${t('heroBtn1')}</a><a class="btn ghost" href="#/story">${t('heroBtn2')}</a><a class="btn ghost" href="Anime_Otaku_prezentaciya.pdf" target="_blank" rel="noopener">${t('deck')}</a></div></div>
       <div class="hero-art" aria-hidden="true"><figure class="pn p1"><img alt="" src="img/hero-itachi.jpg"></figure><figure class="pn p2"><img alt="" src="img/products/roronoa-zoro-figure.jpg"></figure><figure class="pn p3"><img alt="" src="img/products/portgas-d-ace-figure.jpg"></figure></div>
       <div class="hero-badge"><b>12–21</b><span>${t('badge')}</span></div>
       <div class="hero-foot"><img src="img/logo.png" alt="" height="84"><p>${t('heroTag')}</p></div>
